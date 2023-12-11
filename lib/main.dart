@@ -3,12 +3,9 @@ import 'package:flutter_biblioteca/books_page.dart';
 import 'package:flutter_biblioteca/authors_page.dart';
 import 'package:flutter_biblioteca/publishers_page.dart';
 import 'package:flutter_biblioteca/genres_page.dart';
-import 'package:sqflite_common_ffi/sqflite_ffi.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
-  databaseFactoryOrNull = databaseFactoryFfi;
-  sqfliteFfiInit();
   runApp(const MyApp());
 }
 
